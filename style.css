@@ -1,0 +1,55 @@
+body{
+    background-color: #dbdbdb;
+}
+.container{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.125em 0.25em rgb(10 10 10 / 10%);
+}
+h1{
+    padding: 0 10px;
+}
+.score{
+    padding: 20px 10px;
+}
+h2{
+    font-size: 2.5rem;
+    margin:0;
+}
+p{
+    font-size: 1.3rem;
+}
+#max{
+    border-radius: 50px;
+}
+.playground{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.playground button{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.p1game{
+    background-color:#7fffd4;
+}
+.p2game{
+    background-color: #0000f3;
+}
+.reset{
+    background-color: #ff0012;
+}
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
